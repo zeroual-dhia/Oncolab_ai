@@ -49,7 +49,7 @@
   citecolor=accentred,
   urlcolor=primaryblue,
   pdftitle={OncoLab AI -- Final Year Project Report},
-  pdfauthor={Zeroual Dhia Eddine}
+  pdfauthor={Zeroual Dhia Eddine, Nadia Kerraouch}
 }
 
 % ── Header / footer ──────────────────────────────────────────────────────────
@@ -106,7 +106,7 @@
 \centering
 \vspace*{1cm}
 
-{\large\textcolor{darkgray}{Final Year Project}}\\[1.5cm]
+{\large\textcolor{darkgray}{Pharmacy Final Year Project}}\\[1.5cm]
 
 \rule{\linewidth}{1.5pt}\\[0.4cm]
 {\Huge\bfseries\color{primaryblue}
@@ -119,14 +119,14 @@
 
 \begin{minipage}{0.45\textwidth}
   \raggedright
-  \textbf{Author and ML Engineer}\\
+  \textbf{Developer and ML Engineer}\\
   Zeroual Dhia Eddine \\[0.4cm]
  
 \end{minipage}
 \hfill
 \begin{minipage}{0.45\textwidth}
   \raggedleft
-  \textbf{Clinical Supervisor}\\
+  \textbf{Project Owner}\\
   Nadia Kerraouch\\[0.4cm]
   \textbf{Academic Year}\\
   2025--2026\\
@@ -334,7 +334,7 @@ This work occupies a specific niche: a real, single-centre FOLFOX dataset of mod
 \section{Data Collection}
 
 \subsection{Source}
-The raw dataset was provided by the clinical supervisor. The data were collected manually from patient records at a single oncology centre. Each row of the raw spreadsheet corresponds to one chemotherapy cycle for one patient. The data were recorded in a Google Sheets document and exported as a CSV file named \texttt{Collect Data Onco Lab AI - Feuille 2.csv}.
+The raw dataset was provided by the clinical team. The data were collected manually from patient records at a single oncology centre. Each row of the raw spreadsheet corresponds to one chemotherapy cycle for one patient. The data were recorded in a Google Sheets document and exported as a CSV file named \texttt{Collect Data Onco Lab AI - Feuille 2.csv}.
 
 \subsection{Raw Dataset Characteristics}
 \begin{itemize}
@@ -787,7 +787,7 @@ The demographic and staging features (age, T\_stage, N\_stage) contribute less t
 
 \section{Per-Patient Predictions}
 
-The file \texttt{outputs/per\_patient\_predictions.csv} contains, for each of the 141 cycles of the test set, the actual outcome and the probability predicted by the ensemble for the five complications. This table allows the clinical supervisor to verify the plausibility of the model on individual patients.
+The file \texttt{outputs/per\_patient\_predictions.csv} contains, for each of the 141 cycles of the test set, the actual outcome and the probability predicted by the ensemble for the five complications. This table allows the clinical team to verify the plausibility of the model on individual patients.
 
 \begin{table}[H]
 \centering

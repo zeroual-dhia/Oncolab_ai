@@ -49,7 +49,7 @@
   citecolor=accentred,
   urlcolor=primaryblue,
   pdftitle={OncoLab AI -- Rapport de Projet de Fin d'Études},
-  pdfauthor={Zeroual Dhia Eddine}
+  pdfauthor={Zeroual Dhia Eddine, Nadia Kerraouch}
 }
 
 % ── En-tête / pied de page ───────────────────────────────────────────────────
@@ -106,7 +106,7 @@
 \centering
 \vspace*{1cm}
 
-{\large\textcolor{darkgray}{Projet de Fin d'Études}}\\[1.5cm]
+{\large\textcolor{darkgray}{Projet de Fin d'Études en Pharmacie}}\\[1.5cm]
 
 \rule{\linewidth}{1.5pt}\\[0.4cm]
 {\Huge\bfseries\color{primaryblue}
@@ -119,14 +119,14 @@
 
 \begin{minipage}{0.45\textwidth}
   \raggedright
-  \textbf{Auteur et ML Engineer}\\
+  \textbf{Développeur et ML Engineer}\\
   Zeroual Dhia Eddine \\[0.4cm]
  
 \end{minipage}
 \hfill
 \begin{minipage}{0.45\textwidth}
   \raggedleft
-  \textbf{Encadrant clinique}\\
+  \textbf{Projet de fin d'études de}\\
   Nadia Kerraouch\\[0.4cm]
   \textbf{Année universitaire}\\
   2025--2026\\
@@ -334,7 +334,7 @@ Ce travail occupe une niche spécifique : un jeu de données FOLFOX réel, monoc
 \section{Collecte des données}
 
 \subsection{Source}
-Le jeu de données brut a été fourni par l'encadrant clinique. Les données ont été collectées manuellement à partir des dossiers des patients dans un seul centre d'oncologie. Chaque ligne de la feuille de calcul brute correspond à une cure de chimiothérapie pour un patient. Les données ont été enregistrées dans un document Google Sheets et exportées sous forme de fichier CSV nommé \texttt{Collect Data Onco Lab AI - Feuille 2.csv}.
+Le jeu de données brut a été fourni par l'équipe clinique. Les données ont été collectées manuellement à partir des dossiers des patients dans un seul centre d'oncologie. Chaque ligne de la feuille de calcul brute correspond à une cure de chimiothérapie pour un patient. Les données ont été enregistrées dans un document Google Sheets et exportées sous forme de fichier CSV nommé \texttt{Collect Data Onco Lab AI - Feuille 2.csv}.
 
 \subsection{Caractéristiques du jeu de données brut}
 \begin{itemize}
@@ -787,7 +787,7 @@ Les variables démographiques et de stadification (âge, T\_stage, N\_stage) con
 
 \section{Prédictions par patient}
 
-Le fichier \texttt{outputs/per\_patient\_predictions.csv} contient, pour chacun des 141 cycles de l'ensemble de test, le résultat réel et la probabilité prédite par l'ensemble pour les cinq complications. Ce tableau permet à l'encadrant clinique de vérifier la plausibilité du modèle sur des patients individuels.
+Le fichier \texttt{outputs/per\_patient\_predictions.csv} contient, pour chacun des 141 cycles de l'ensemble de test, le résultat réel et la probabilité prédite par l'ensemble pour les cinq complications. Ce tableau permet à l'équipe clinique de vérifier la plausibilité du modèle sur des patients individuels.
 
 \begin{table}[H]
 \centering
