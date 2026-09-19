@@ -9,10 +9,10 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Final Year Project in Pharmacy
+Pharmacy Final Year Project of **Nadia Kerraouch**
 
-- **Author and ML Engineer:** Zeroual Dhia Eddine
-- **Clinical Supervisor:** Nadia Kerraouch
+- **Project owner:** Nadia Kerraouch
+- **Developer and ML Engineer:** Zeroual Dhia Eddine
 
 ---
 
@@ -221,7 +221,7 @@ pdflatex report_en.tex   # run twice to resolve cross-references
 
 ## Data availability and ethics
 
-The patient data are anonymised and are shared publicly with the permission of the clinical team that provided them. The dataset was collected retrospectively at a single centre for academic purposes as part of this final year project.
+The patient data are anonymised and are shared publicly with the permission of the clinical team that provided them. The dataset was collected retrospectively at a single centre for academic purposes as part of Nadia Kerraouch's final year project.
 
 ---
 
@@ -235,7 +235,7 @@ The source code and notebooks in this repository are released under the [MIT Lic
 
 The full report (clinical background, data pipeline, methodology, results and discussion) is available in this repository:
 
-- English: [`report/report_en.pdf`](report/report_en.pdf) (compiled) and [`report/report_en.tex`](report/report_en.tex)
+- English: [`report/report_en.tex`](report/report_en.tex)
 - French: [`report/report_fr.pdf`](report/report_fr.pdf) (compiled) and [`report/report_fr.tex`](report/report_fr.tex) (source)
 
 The FOLFOX protocol references are listed in the report (Chapter 2, Clinical and Technical Background).
