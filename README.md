@@ -235,7 +235,7 @@ The source code and notebooks in this repository are released under the [MIT Lic
 
 The full report (clinical background, data pipeline, methodology, results and discussion) is available in this repository:
 
-- English: [`report/report_en.tex`](report/report_en.tex)
+- English: [`report/report_fr.pdf`](report/report_en.pdf) (compiled) and [`report/report_en.tex`](report/report_en.tex)
 - French: [`report/report_fr.pdf`](report/report_fr.pdf) (compiled) and [`report/report_fr.tex`](report/report_fr.tex) (source)
 
 The FOLFOX protocol references are listed in the report (Chapter 2, Clinical and Technical Background).
